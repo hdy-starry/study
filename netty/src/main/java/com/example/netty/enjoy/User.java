@@ -18,6 +18,7 @@ public class User {
     private int age;
     private UserContact userContact;
     private String newFeild;
+    //开发新功能
     public User() {
     }
 
