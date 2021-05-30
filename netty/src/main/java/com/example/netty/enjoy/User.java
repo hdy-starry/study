@@ -17,6 +17,7 @@ public class User {
     private String name;
     private int age;
     private UserContact userContact;
+    private String newFeild;
     public User() {
     }
 
@@ -56,5 +57,13 @@ public class User {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getNewFeild() {
+        return newFeild;
+    }
+
+    public void setNewFeild(String newFeild) {
+        this.newFeild = newFeild;
     }
 }
