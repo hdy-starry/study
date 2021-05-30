@@ -15,6 +15,7 @@ import org.msgpack.annotation.Message;
 public class UserContact {
     private String mail;
     private String phone;
+    private String diercitijiao;
 
     public UserContact() {
     }
@@ -38,5 +39,13 @@ public class UserContact {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    public String getDiercitijiao() {
+        return diercitijiao;
+    }
+
+    public void setDiercitijiao(String diercitijiao) {
+        this.diercitijiao = diercitijiao;
     }
 }
