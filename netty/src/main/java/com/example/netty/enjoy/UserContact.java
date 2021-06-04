@@ -16,7 +16,7 @@ public class UserContact {
     private String mail;
     private String phone;
     private String diercitijiao;
-
+    //修改一个bug
     public UserContact() {
     }
 
