@@ -19,6 +19,7 @@ public class User {
     private UserContact userContact;
     private String newFeild;
     //开发新功能
+    //6月5号开发新功能
     public User() {
     }
 
